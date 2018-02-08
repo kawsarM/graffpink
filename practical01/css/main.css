@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: UniversLT light;
+}
+body{
+	overflow-x: hidden;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collaps
+	e: collapse;
+	border-spacing: 0;
+}
+.banner img{
+	width: 100%;
+	position: relative;
+}
+header {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	z-index: 3;
+
+}
+.navbar{
+	width: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.logo{
+	float: left;
+	
+}
+.nav-right{
+	float: right;
+	
+}
+.nav-right .nav{
+	float: left;
+	margin-top: 3px;
+}
+.nav-right .login{
+	float: right;
+}
+.nav ul li{
+	display: inline;
+	padding: 10px;
+	margin-right: 5px;
+}
+.nav ul li a{
+	color: #454545;
+	font-size: 17px;
+	font-family: Myriad Pro Regular;
+}
+.login{
+	background-image: url(../images/login.png);
+	background-repeat: no-repeat;
+	background-color: #c34d5f;
+	background-position: 13px 7px;
+	border-color: 1px solid #c34d5f;
+	width: 87px;
+    height: 27px;
+    border-radius: 7%;
+}
+.login a{
+	color: #FFF;
+	font-size: 17px;
+	font-family: Myriad Pro Regular;
+	margin-left: 35px;
+	margin-top: 7px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 100% auto;
+	max-width: 940px;
+
+}
+.welcome{
+	color: #000;
+	position: absolute;
+	text-align: center;
+
+}
+.welcome h1{
+	font-size: 35px;
+	font-family: Myriad Pro Regular;
+}
+.welcome p{
+	font-size: 25px;
+}
+
+.text{
+	color: #000;
+	text-align: center;
+	line-height: 2;
+}
+.text h2{
+	font-size: 25px;
+}
+.text p{
+	font-size: 17px;
+}
+.icons{
+	width: 940px;
+	padding: 0px 60px 60px 0px;
+}
+.icon{
+	display: inline-block;
+	border-radius: 50%;
+	width:180px;
+	height: 180px;
+	margin-top: 80px;
+	text-align: center;
+	line-height: 150px;
+	padding: 35px;
+}
+.icon a{
+   text-align: center;	
+   color: #FFF;
+   display: inline-block;
+   line-height: 20px;
+}
+
+.icons .icon-tickets{
+	background-color: #4eb9f4;
+}
+.icons .icon-tickets a{
+	background-image: url(../images/ticket.png);
+	background-position: center top;
+    background-repeat: no-repeat;
+    min-width: 80px;
+    padding-top: 86px;
+    box-sizing: border-box;
+}
+.icons .icon-camera{
+	background-color: #6fc125;
+}
+.icons .icon-camera a{
+	background-image: url(../images/camera.png);
+	background-position: center top;
+    background-repeat: no-repeat;
+    min-width: 80px;
+    padding-top: 86px;
+    box-sizing: border-box;
+}
+.icons .icon-beers {
+	background-color: #ff5649;
+}
+.icons .icon-beers a{
+	background-image: url(../images/beer.png);
+	background-position: center top;
+    background-repeat: no-repeat;
+    min-width: 80px;
+    padding-top: 86px;
+    box-sizing: border-box;
+}
+.icons .icon-devices {
+	background-color: #e48f23;
+}
+.icons .icon-devices a{
+	background-image: url(../images/devices.png);
+	background-position: center top;
+    background-repeat: no-repeat;
+    min-width: 80px;
+    padding-top: 86px;
+    box-sizing: border-box;
+}
+.section-01{
+	border-bottom: 1px solid grey;
+}
+section .article{
+	width: 100%;
+	max-width: 940px;
+}
+footer{
+	background-color: #000;
+	margin-top: 80px;
+	height: 260px;
+}
+footer .Sub-menu {
+	display: inline-block;
+}
+
+footer h3 {
+    color: #FFF;
+    font-size: 21px;
+
+}
+footer ul li a{
+	color: grey;
+	font-size: 15px;	
+}
